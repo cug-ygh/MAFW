@@ -22,9 +22,10 @@ MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial
 
 ### 1.1 Examples of the single expressions in MAFW
 
+![image](https://github.com/yinhao2000/MAFW/blob/main/imgs/image03.png)
 
 ### 1.2 Examples of the multiple expressions in MAFW
-
+![image](https://github.com/yinhao2000/MAFW/blob/main/imgs/image04.png)
 
 
 ### 1.3 Clone & Edit the Code
