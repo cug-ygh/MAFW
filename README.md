@@ -84,6 +84,9 @@ Please cite our paper if you find our work useful for your research:
 ```
 ```
 
-##4.Contact 
+## 4.Contact 
+
+If you have any questions about the dataset, please contact us by email.
+Contacts | Email
 
 
