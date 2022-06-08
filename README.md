@@ -18,7 +18,6 @@ MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial
 
 ## 1. Samples of MAFW
 
-> **Note:** From version 2.0, we packaged the project and uploaded it to PyPI in the hope of making it easier to use. If you don't like the new structure, you can always switch back to `v_1.0` branch. 
 
 ### 1.1 Examples of the single expressions in MAFW
 
@@ -28,27 +27,9 @@ MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial
 ![image](https://github.com/yinhao2000/MAFW/blob/main/imgs/image04.png)
 
 
-### 1.3 Clone & Edit the Code
-
-- Clone this repo and install requirements.
-  ```bash
-  $ git clone https://github.com/thuiar/MMSA
-  ```
-- Edit the codes to your needs. See [Code Structure](https://github.com/thuiar/MMSA/wiki/Code-Structure) for a basic review of our code structure.
-- After editing, run the following commands:
-  ```bash
-  $ cd MMSA-master # make sure you're in the top directory
-  $ pip install .
-  ```
-- Then run the code like above sections.
-- To further change the code, you need to re-install the package:
-  ```bash
-  $ pip uninstall MMSA
-  $ pip install .
-  ```
-- If you'd rather run the code without installation(like in v_1.0), please refer to [Run Code without Installation](https://github.com/thuiar/MMSA/wiki/Run-Code-without-Installation).
-
 ## 2. Datasets
+
+> **Note:** We have set out some of the terms and conditions in this section, as detailed in this document.
 
 MMSA currently supports MOSI, MOSEI, and CH-SIMS dataset. Use the following links to download raw videos, feature files and label files. You don't need to download raw videos if you're not planning to run end-to-end tasks. 
 
