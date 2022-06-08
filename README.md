@@ -60,21 +60,22 @@ MAFW Dataset{
 	       .....
 		}
 	caption-label: {
-		single_set : label.txt
-		multi_Set : label.txt		 
+		single_set : single_label.txt
+		multi_Set : multi_label.txt		 
 		}
 	readme.txt
 }
 ```
-An example in the label.txt is:
+An example in the single_label.txt is:
 
 03747.mp4  anger  一个男人对着面前的激动地说话。眉头紧蹙，微微皱鼻。  A man speaks excitedly to the man in front of him. The deep frown and the slightly wrinkled nose.
 
-## 4. Results
+An example in the multi_label.txt is:
 
-Baseline results are reported in [results/result-stat.md](results/result-stat.md)
+20045.mp4	anger_disgust_anxiety	一个女人在门口苦口婆心地劝说朋友。皱眉，眉毛内低外高，鼻子微皱，噘嘴，嘴角下拉。	A woman in a doorway painstakingly persuads her friend. The frown, the lower inner corners of eyebrows, the higher outer corners of eyebrows, the slightly wrinkled nose, a pout, and a downward pull on the lip corners.
 
-## 5. Citation
+
+## 3. Citation
 
 - [MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression Recognition in the Wild]()
 
