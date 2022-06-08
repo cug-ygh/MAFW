@@ -49,24 +49,26 @@ Permission to use but not reproduce or distribute the MAFW database is granted t
 
 ### 2.3 Content preview
 
+
 ```
 MAFW Dataset{
 	clips: {
-      .....
-      00151.mp4,
-      00152.mp4,
-      00153.mp4,
-      .....
+	       .....
+	       00151.mp4,
+	       00152.mp4,
+	       00153.mp4,
+	       .....
 		}
 	caption-label: {
-		single_set : .txt
-		multi_Set :	.txt		 
+		single_set : label.txt
+		multi_Set : label.txt		 
 		}
-	.....
-	.....
+	readme.txt
 }
 ```
+An example in the label.txt is:
 
+03747.mp4  anger  一个男人对着面前的激动地说话。眉头紧蹙，微微皱鼻。  A man speaks excitedly to the man in front of him. The deep frown and the slightly wrinkled nose.
 
 ## 4. Results
 
