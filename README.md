@@ -20,52 +20,12 @@ MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial
 
 > **Note:** From version 2.0, we packaged the project and uploaded it to PyPI in the hope of making it easier to use. If you don't like the new structure, you can always switch back to `v_1.0` branch. 
 
-### 1.1 Use Python API
+### 1.1 Examples of the single expressions in MAFW
 
-- Run `pip install MMSA` in your python virtual environment.
-- Import and use in any python file:
 
-  ```python
-  from MMSA import MMSA_run
+### 1.2 Examples of the multiple expressions in MAFW
 
-  # run LMF on MOSI with default hyper parameters
-  MMSA_run('lmf', 'mosi', seeds=[1111, 1112, 1113], gpu_ids=[0])
 
-  # tune Self_mm on MOSEI with default hyper parameter range
-  MMSA_run('self_mm', 'mosei', seeds=[1111], gpu_ids=[1])
-
-  # run TFN on SIMS with altered config
-  config = get_config_regression('tfn', 'mosi')
-  config['post_fusion_dim'] = 32
-  config['featurePath'] = '~/feature.pkl'
-  MMSA_run('tfn', 'mosi', config=config, seeds=[1111])
-
-  # run MTFN on SIMS with custom config file
-  MMSA_run('mtfn', 'sims', config_file='./config.json')
-  ```
-
-- For more detailed usage, please refer to [APIs](https://github.com/thuiar/MMSA/wiki/APIs).
-
-### 1.2 Use Commandline Tool
-
-- Run `pip install MMSA` in your python virtual environment.
-- Use from command line:
-
-  ```bash
-  # show usage
-  $ python -m MMSA -h
-
-  # train & test LMF on MOSI with default parameters
-  $ python -m MMSA -d mosi -m lmf -s 1111 -s 1112
-
-  # tune 50 times of TFN on MOSEI with custom config file & custom save dir
-  $ python -m MMSA -d mosei -m tfn -t -tt 30 --model-save-dir ./models --res-save-dir ./results
-
-  # train & test self_mm on SIMS with custom audio features & use gpu2
-  $ python -m MMSA -d sims -m self_mm -Fa ./Features/Feature-A.pkl --gpu-ids 2
-  ```
-
-- For more detailed usage, please refer to [Commandline Arguments](https://github.com/thuiar/MMSA/wiki/Commandline-Arguments).
 
 ### 1.3 Clone & Edit the Code
 
@@ -160,30 +120,9 @@ Baseline results are reported in [results/result-stat.md](results/result-stat.md
 
 ## 5. Citation
 
-- [CH-SIMS: A Chinese Multimodal Sentiment Analysis Dataset with Fine-grained Annotations of Modality](https://www.aclweb.org/anthology/2020.acl-main.343/)
-- [Learning Modality-Specific Representations with Self-Supervised Multi-Task Learning for Multimodal Sentiment Analysis](https://arxiv.org/abs/2102.04830)
-- [M-SENA: An Integrated Platform for Multimodal Sentiment Analysis]()
+- [MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression Recognition in the Wild]()
 
 Please cite our paper if you find our work useful for your research:
 
 ```
-@inproceedings{yu2020ch,
-  title={CH-SIMS: A Chinese Multimodal Sentiment Analysis Dataset with Fine-grained Annotation of Modality},
-  author={Yu, Wenmeng and Xu, Hua and Meng, Fanyang and Zhu, Yilin and Ma, Yixiao and Wu, Jiele and Zou, Jiyun and Yang, Kaicheng},
-  booktitle={Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
-  pages={3718--3727},
-  year={2020}
-}
-```
-
-```
-@inproceedings{yu2021learning,
-  title={Learning Modality-Specific Representations with Self-Supervised Multi-Task Learning for Multimodal Sentiment Analysis},
-  author={Yu, Wenmeng and Xu, Hua and Yuan, Ziqi and Wu, Jiele},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={35},
-  number={12},
-  pages={10790--10797},
-  year={2021}
-}
 ```
