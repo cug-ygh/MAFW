@@ -47,6 +47,26 @@ Permission to use but not reproduce or distribute the MAFW database is granted t
 2. Read the terms and conditions carefully to make sure they are acceptable, and fill in the relevant information at the end of the document.
 3. Send the completed document to email (wind_ygh@163.com).
 
+### 2.3 Content preview
+
+```
+MAFW Dataset{
+	clips: {
+      .....
+      00151.mp4,
+      00152.mp4,
+      00153.mp4,
+      .....
+		}
+	caption-label: {
+		single_set : .txt
+		multi_Set :	.txt		 
+		}
+	.....
+	.....
+}
+```
+
 
 ## 4. Results
 
