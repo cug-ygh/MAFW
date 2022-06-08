@@ -43,9 +43,9 @@ MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial
 > **Note:** This database is publicly available. It is free for professors and researcher scientists affiliated to a University.
 
 Permission to use but not reproduce or distribute the MAFW database is granted to all researchers given that the following steps are properly followed:
-1. Download the [mafw Academics -final.pdf](https://github.com/yinhao2000/MAFW/blob/main/academics/mafw-academics-final.pdf) document.
+1. Download the [mafw-academics -final.pdf](https://github.com/yinhao2000/MAFW/blob/main/academics/mafw-academics-final.pdf) document.
 2. Read the terms and conditions carefully to make sure they are acceptable, and fill in the relevant information at the end of the document.
-3. Send the completed document to email ().
+3. Send the completed document to email (wind_ygh@163.com).
 
 
 SHA-256 for feature files:
