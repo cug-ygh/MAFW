@@ -31,7 +31,7 @@ MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial
 
 > **Note:** We have set out some of the terms and conditions in this section, as detailed in the [academics document](https://github.com/yinhao2000/MAFW/blob/main/academics/mafw%20academics-final.pdf).
 
-### 2.1 Some term&conditions
+### 2.1 Some terms&conditions
 - MAFW database is available for non-commercial research purposes only.
 - You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for commercial purposes, any portion of the clips, and any derived data.
 - You agree not to further copy, publish, or distribute any portion of the MAFW database. Except for internal use at a single site within the same organization, it is allowed to make copies of the dataset.
@@ -40,6 +40,10 @@ MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial
 
 ### 2.2 How to get the MAFW Dataset
 
+> **Note:** This database is publicly available. It is free for professors and researcher scientists affiliated to a University.
+
+Permission to use but not reproduce or distribute the MAFW database is granted to all researchers given that the following steps are properly followed:
+1. Download the [mafw Academics -final.pdf](https://github.com/yinhao2000/MAFW/blob/main/academics/mafw%20academics-final.pdf) document.
 
 
 SHA-256 for feature files:
