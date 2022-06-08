@@ -16,7 +16,7 @@ MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial
 - 11 single-emotion categories and 32 multi-emotion categories.
 
 
-## Sample of MAFW
+## 1. Samples of MAFW
 
 > **Note:** From version 2.0, we packaged the project and uploaded it to PyPI in the hope of making it easier to use. If you don't like the new structure, you can always switch back to `v_1.0` branch. 
 
