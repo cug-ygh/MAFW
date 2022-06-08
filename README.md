@@ -31,11 +31,16 @@ MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial
 
 > **Note:** We have set out some of the terms and conditions in this section, as detailed in the [academics document](https://github.com/yinhao2000/MAFW/blob/main/academics/mafw%20academics-final.pdf).
 
-MMSA currently supports MOSI, MOSEI, and CH-SIMS dataset. Use the following links to download raw videos, feature files and label files. You don't need to download raw videos if you're not planning to run end-to-end tasks. 
+### 2.1 Some term&conditions
+- MAFW database is available for non-commercial research purposes only.
+- You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for commercial purposes, any portion of the clips, and any derived data.
+- You agree not to further copy, publish, or distribute any portion of the MAFW database. Except for internal use at a single site within the same organization, it is allowed to make copies of the dataset.
 
-- All files: [BaiduYun Disk](https://pan.baidu.com/s/1Qn_6Py8bFnYSiSczBHklVw?pwd=6zz7)
-- Feature and label files only: [Google Drive](https://drive.google.com/drive/folders/12M5AeBnpjVzeNIcLromJRDq_-jNg0vHY?usp=sharing)
-- MOSEI unaligned_50.pkl: [Google Drive](https://drive.google.com/drive/folders/19Nurt_SbWbmZqXgLFepaWOGQOgxlSv_C?usp=sharing)
+
+
+### 2.2 How to get the MAFW Dataset
+
+
 
 SHA-256 for feature files:
 
@@ -69,9 +74,7 @@ MMSA uses feature files that are organized as follows:
 }
 ```
 
-> **Note:** For MOSI and MOSEI, the pre-extracted text features are from BERT, different from the original glove features in the [CMU-Multimodal-SDK](http://immortal.multicomp.cs.cmu.edu/raw_datasets/processed_data/).
 
-> **Note:** If you wish to extract customized multimodal features, please try out our [MMSA-FET](https://github.com/thuiar/MMSA-FET)
 
 
 ## 3. Supported MSA Models
