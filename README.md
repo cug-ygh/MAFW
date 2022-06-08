@@ -29,7 +29,7 @@ MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial
 
 ## 2. Datasets
 
-> **Note:** We have set out some of the terms and conditions in this section, as detailed in the document(https://github.com/yinhao2000/MAFW/blob/main/academics/mafw%20academics-final.pdf).
+> **Note:** We have set out some of the terms and conditions in this section, as detailed in the [academics document](https://github.com/yinhao2000/MAFW/blob/main/academics/mafw%20academics-final.pdf).
 
 MMSA currently supports MOSI, MOSEI, and CH-SIMS dataset. Use the following links to download raw videos, feature files and label files. You don't need to download raw videos if you're not planning to run end-to-end tasks. 
 
