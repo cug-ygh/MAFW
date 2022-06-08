@@ -1,7 +1,5 @@
 
 
-[![](https://badgen.net/badge/contact/yinhao2000/purple)](https://yinhao2000.github.io/)
-
 # MAFW
 
 
