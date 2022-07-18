@@ -1,6 +1,6 @@
 
 
-# MAFW
+# MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression Recognition in the Wild. 
 ![image](/imgs/back2.png)
 
 MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression  Recognition in the Wild. The data source of MAFW is richer, not only from movies and TV dramas, but also includes short videos from reality shows, talk shows, news, variety shows, etc, which is closer to the real-world emotion.
